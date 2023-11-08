@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        
+        <div>
+            <label for="fname">Nome</label>
+            <input type="text" id="fname" name="fname" placeholder="Mario"><br>
+        </div>
+        <div>
+            <label for="lname">Cognome</label>
+            <input type="text" id="lname" name="lname" placeholder="Rossi"><br>
+        </div>
+        <div>
+            <label for="email">Indirizzo Posta Elettronica</label>
+            <input type="email" id="mail" name="mail" placeholder="mariorossi@mail.it"><br>
+        </div>
+        <div>
+            <label for="motivation">Per quale motivo ci stai contattando?</label>
+            <select name="motivation" id="motivation">
+                <option value="question">Domanda</option>
+                <option value="feedback">Feedback</option>
+                <option value="bug">Segnalazione di bug</option>
+                </select>
+        </div>
+        <div>
+            <label for="messagge">Mandaci un messaggio:</label><br>
+            <textarea name="messagge" id="messagge" placeholder="Scrivi qui il tuo messaggio!"></textarea>
+        </div>
+        <div>
+            <button type="submit">
+                Invia
+            </button>
+        </div>
+    
+    </form>
+</body>
+</html>
