@@ -8,7 +8,7 @@
 
 <body>
     <form>
-        
+        <!--Dati anagrafici e email  -->
         <div>
             <label for="fname">Nome</label>
             <input type="text" id="fname" name="fname" placeholder="Mario"><br>
@@ -22,17 +22,40 @@
             <input type="email" id="mail" name="mail" placeholder="mariorossi@mail.it"><br>
         </div>
         <div>
+            <p>Selezionare il genere d'identificazione:</p>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Uomo</label><br>
+            <input type="radio" id="female" name="gender" >
+            <label for="female">Donna</label><br>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Altro</label>
+        </div>
+        <!-- Scelta interessi -->
+        <div>
+            <p>Seleziona i tuoi interessi:</p>
+            <input type="checkbox" name="hobby1" id="sport">
+            <label for="hobby1">Sport</label><br>
+            <input type="checkbox" name="hobby2" id="music">
+            <label for="hobby2">Musica</label><br>
+            <input type="checkbox" name="hobby3" id="cinema">
+            <label for="hobby3">Cinema</label><br>
+            <input type="checkbox" name="hobby4" id="gaming">
+            <label for="hobby4">Gaming</label><br>
+        </div>
+        <!-- Motivazione + messaggio -->
+        <div>
             <label for="motivation">Per quale motivo ci stai contattando?</label>
-            <select name="motivation" id="motivation">
+            <select name="motivation" id="motivation" >
                 <option value="question">Domanda</option>
                 <option value="feedback">Feedback</option>
                 <option value="bug">Segnalazione di bug</option>
             </select>
         </div>
         <div>
-            <label for="messagge">Mandaci un messaggio:</label><br>
-            <textarea name="messagge" id="messagge" placeholder="Scrivi qui il tuo messaggio!"></textarea>
+            <label for="message">Mandaci un messaggio:</label><br>
+            <textarea name="message" id="message" placeholder="Scrivi qui il tuo messaggio!"></textarea>
         </div>
+
         <div>
             <button type="submit">
                 Invia
