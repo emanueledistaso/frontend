@@ -1,0 +1,22 @@
+
+#start{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+nav{
+    background-color: #ffc46a;
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: #0f2af0;
+    text-decoration: none;
+}
+
+h3 {
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: 500;
+}
