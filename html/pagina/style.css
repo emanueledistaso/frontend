@@ -1,0 +1,63 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* header */
+.pagetop{
+    height: 150px;
+    background-color: greenyellow;
+    border: 3px solid green;
+}
+
+.navbar{
+    background-color: limegreen;
+    border: 2px solid green;
+    height: 100px;
+    width: 90vw;
+    margin: 25px auto;
+}
+
+.navlist{
+    list-style: none;
+}
+/* 
+.navitem{
+    display: inline-block;
+} */
+
+
+/* Inizio main */
+
+.purplemain{
+    background-color: blueviolet;
+    padding-top: 500px;
+    border: 3px solid purple;
+}
+
+.firstsec{
+    background-color: aquamarine;
+    height: 250px;
+}
+
+.secondsec{
+    background-color: aqua;
+    height: 250px;
+    /* border-color: 1px solid black; */
+}
+
+.thirdsec{
+    background-color: rgb(50, 50, 255);
+    height: 250px;
+    /* border-color: 1px solid red; */
+}
+
+/* Inizio Footer */
+
+.pagebottom{
+    background-color: black;
+    height: 300px;
+    border: 3px solid white;
+}
