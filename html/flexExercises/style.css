@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+Indice:
+01 - header
+02 - main
+03 - footer */
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: end;
+}
+
+/* HEADER */
+header .logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
