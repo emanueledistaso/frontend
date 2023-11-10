@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    background-color: blanchedalmond;
+}
+
+#firstDiv{
+    margin-bottom: 500px;
+}
+
+header{
+    background-color: orangered;
+    height: auto;
+    padding: 20px;
+    display: flow-root;
+}
+
+.logo{
+    float: left;
+    background-color: palevioletred;
+    padding: 40px 25px;
+}
+
+.navigation{
+    float: right;
+    background-color: red;
+    padding: 40px 25px;
+}
+
+#firstDiv aside{
+    float: left;
+    height: 70vh;
+    background-color: orange;
+    width: 15vw;
+    padding: 20px;
+    margin: 5vh 10vw 5vh 5vw;
+}
+
+.subOne{
+    float: right;
+    background-color: blue;
+    margin: 5vh;
+    padding: 20px 60px;
+    height: 30vh;
+    width: 50vw;
+}
+
+
+#firstDiv footer{
+    clear: both;
+    background-color: green;
+    height: 15vh;
+} 
+
+.postMain{
+    background-color: aquamarine;
+    padding: 5vh 5vw;
+    margin-bottom: 300px;
+}
+
+.post{
+    height: 300px;
+    width: 85vw;
+    padding: 20px;
+    background-color: lightgreen;
+    margin-bottom: 30px;
+}
+
+.postPhoto{
+    float: left;
+    margin-right: 20px;
+}
+
+.postText{
+    float: left; 
+    padding: 10px 20px;
+    background-color: purple;
+    margin-top: 30px;
+    width: 80%;
+}
+/* #firstDiv main{
+    background-color: cadetblue;
+    color: white;
+    float: left;
+    height: 70vh;
+    width: 50vw;
+    padding: 20px;
+}
+
+#firstDiv sub{
+    float: right;
+    background-color: royalblue;
+    height: 70vh;
+    width: 30vw;
+    padding: 20px;
+} */
