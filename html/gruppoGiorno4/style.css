@@ -18,13 +18,15 @@ body{
     font-size: 20px;
     font-family: monospace;
 }
-
+.box-row{
+    padding-bottom:  40px;
+    display: block;
+}
 .square{
     height: 200px;
     width: 200px;
     display: inline-block;
     margin-left: 20px;
-    margin-top: 40px;
 
 }
 
@@ -33,12 +35,8 @@ body{
     padding-top: 85px;
 }
 
-.divfinale{
-    margin-top: -45px;
-    margin-bottom: 200px;
-}
-
 footer{
+    margin-top: 200px ;
     background-color: black;
     height: 400px;
     color: white;
