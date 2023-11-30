@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- Formattazione, tag di formattazione, alcuni di questi sono inline
+    altri sono block.
+    b,del e strong sono inline
+    blockquote e code sono block
+     -->
+
+    <b>Testo in grassetto</b>
+
+    <blockquote> Citazione </blockquote>
+
+    <code> Qui inserisco codice </code>
+
+    <del> Testo cancellato? </del>
+
+    <strong> Testo in grassetto, con indicizzazione, più o meno stessa 
+        funzione di h1 a livello di SEO.
+        Con strong metto in evidenza le keywords del testo
+    </strong>
+
+    <!-- Ce ne sono molti altri, vedi poi le slide che caricheranno -->
+
+    <!-- Link, ipertesto
+        Si usa il tag <a></a> e l'attributro href
+        Ovvero, dove punta il link
+    -->
+
+    <!-- Liste, fatte come si vede ieri -->
+
+    <ul>
+        <li><img src="/primoEs/paperino.jpg">
+        </li>
+    </ul>
+
+    <!-- Poi si è parlato un po' della storia dei browser -->
+
+    <!-- Conviene scaricarsi Google Chrome in quanto
+        è il browser più utilizzato
+        e più aggiornato
+     -->
+
+     <!-- Javascript non ha bisogno di essre compilato
+        Viene letto e interpretato dal browser
+        in maniera nativa.
+        Ovviamente se il browser non è aggiornato potrebbe
+        non capire alcune delle istruzioni di JS
+        e in tal caso inseriremo delle alternative. 
+    -->
+
+    <!-- <a href="#"> </a> questo è un link vuoto, mi riporta al top
+        Si usa anche come placeholder.
+        infatti il href deve essre sempre pieno
+        non può essere vuoto.
+    -->
+
+    <!-- Lista corretta in un nav  -->
+    <header>
+        <img src="#" alt="#"> 
+        <nav>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Con l'attributo area-label posso indicare il significato di un 
+        tag, e anche come lo screen reader legge il tag
+    -->
+
+    <!-- <button></button> definisce un pulsante cliccabile
+        può contenere al suo interno altri tag
+        bisogna sempre specificare l'attributo type del button
+        di due tipi "button"  e "submit"
+        il primo non fa nulla
+        il secondo fa partire le informazioni nel form
+    -->
+
+    <!-- Prima del CSS si utilizzavano le tabelle
+        <table></table> per definire il Layout della pagina
+    -->
+
+    <!-- Altri tag delle tabelle non visti ieri sono
+    <thead></thead>,<tbody> e <tfoot>, oltre al <caption> che definisce
+    la descrizione della tabella
+    -->
+
+    <!-- <div></div> e <span></span> definiscono sezioni generiche 
+    di un documento, il primo è un tag block il secondo inline
+    -->
+
+    <!-- <meta><style></style><link rel="stylesheet" href=""> e <script></script> 
+        Vanno nell'head del file html
+        style mi permette di scrivere il CSS
+        link mi permette di linkare il CSS
+        script invece mi definisce il codice Javascript che utilizzerò
+        può essere messo o nell'head o in fondo al body
+        preferibilmente in fondo al body, ma varia, ad esempio
+        lo script di Google Analytics vuole essere inserito nell'head
+    -->
+
+    <!-- FORM -->
+
+    <!-- <form action=""></form> definisce un form
+    tutti i tag input sono innestati nel form
+    -->
+
+    <!-- i tag <input type=""/> non si chiudono, sono tag "nulli" -->
+
+    <!-- Se uso un input type button uso l'attributo value per mettere 
+    il testo che si trova al suo interno
+    -->
+
+    <!-- Gli input di tipo radio devono essre collegati tra loro
+    dall'attributo di tipo name
+    devono avere lo stesso nome
+    -->
+
+        <!-- tfoot, thead e tbody servono più per la leggibilità del codice
+    e sul CSS che per motivi estetici in html
+    La cosa utile della tabella rispetto al css
+    è la gestione delle colonne
+    la tabella è l'unico modo per ho per ottenere tutte colonne della stessa grandezza
+    rowspan e colspan mi dicono quanti spazi le celle su cui applico
+    questi attributi occupano.
+    -->
+
+        <!-- 
+        Form in Html:
+        -Utilizzati per raccogliere informazioni dall'utente
+        
+        <form> tag che fa iniziare il form (è un contenitore tipo div)
+            <input> Utilizzato per raccogliere dati 
+            può essere di diversi tipi 
+            
+            <label> Fornisce una descrizione per un input, rendendolo più chiaro
+            
+            <textarea> Un'area di testo multiriga, dove gli utenti possono scrivere quello che vogliono
+            
+            <select> e <option> Utilizzati per menù a discesa (select box)
+                Per selezionare una opzione da un elenco
+
+        <button> pulsante di invio
+
+    -->
+
+    <!-- Introduciamo il CSS 
+        Per collegare un html a un css inseriamo nell'head il tag
+        <link rel="stylesheet" href="style.css">
+        con href ci mettiamo il percorso assoluto/relativo del file css
+    -->
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="firstname">Nome</label>
+        <input id="firstname" placeholder="e.g Mario Rossi" type="text" name="firstname" required>
+        <input type="date" name="date">
+        <!-- Per dare il nome al campo del form
+        Uso il tag label -->
+        <!-- l'attributo placeholder mi inserisce nella
+        casella del form un testo placeholder
+        che scompare non appena l'utente inizia a digitare
+        -->
+        <!-- Alla fine devo inserire il tasto di submit -->
+        <!-- Ho 3 possibilità, il terzo è il più usato, di base lancia come submit, di default il suo type è submit -->
+
+        <!-- Checkbox -->
+        <p>Hobby</p>
+        <input type="checkbox" name="sportHobby" value="sport" id="sport">
+        <label for="sport">sport</label><br>
+        <input type="checkbox" name="gamingHobby" value="gaming" id="gaming">
+        <label for="gaming">gaming</label><br><br>
+        <!-- Radio -->
+        <p>Età</p>
+        <input type="radio" name="eta" value="maggiorenne" id="maggiorenne">
+        <label for="maggiorenne">maggiorenne</label>
+        <input type="radio" name="eta" value="minorenne" id="minorenne">
+        <label for="minorenne">minorenne</label>
+        
+        <br><br>
+        <!-- Textarea, nel valore dentro i tag di texarea vengono considerati gli spazi -->
+        <textarea name="descrizione"></textarea>
+
+        <!-- Select -->
+        <select name="hobby">
+            <option value="">-- --</option>
+            <option value="sport">Sport</option>
+            <option value="gaming">Gaming</option>
+        </select>
+        <br>
+        <br>
+        <!-- Tasti per Submit -->
+        <input type="submit" value="submit">
+        <input type="button" value="button">
+        <button>
+            submit
+        </button>
+        <!-- Quest'ultimo azzera tutto quello che ho inserito -->
+        <button type="reset"> Reset</button>
+        </form>
+</body>
+</html>

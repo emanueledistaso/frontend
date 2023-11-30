@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 16px;
+    /* il float fa perdere le grandezze dei figli di una classe/elemento, occorre quindi dare al parent la proprietà */
+    display: flow-root;
+}
+/* Vogliamo poter mettere la sidebar e il main uno accanto all'altro */
+
+.logo{
+    float: left;
+}
+
+.nav{
+    float: right;
+}
+
+aside{
+    float: right;
+    width: 30%;
+    background-color: yellow;
+}
+/* Il float incide su tutto, non solo sull'elemento su cui viene applicato
+per sistemare i "casini" combinati dal float 
+dobbiamo darlo anche agli altri elementi con cui "litiga", float ha effetto su tutti gli elementi che vengono dopo quello a cui viene applicato, nel nostro caso andrà a influenzare anche main e footer */
+
+main{
+    float: left;
+    background-color: violet;
+    padding: 16px;
+    width: 70%;
+}
+main img{
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* Il float può essere utilizzato per invertire l'ordine di alcuni elementi, ad esempio in questo css se avessimo messo main float left allora si sarebbe invertito con aside */
+/* Possiamo aggiungere un a proprietà che va a interrompere l'azione del float */
+
+footer{
+    /* clear è la proprietà che va a interrompere il lavoro del float */
+    clear: both;
+    background-color: orange;
+}
+
+/* Il flex invece va a lavorare sul contenitore 
+a cui si darà la proprietà display: flex 
+nel contenuto, se assegnamo grandezze percentuali e poi aggiungiamo margini, il flex automaticamente andrà a togliere i margini dallo spazio disponibile al contenuto
+la proprietà gap data al container va a creare un gap che separa i figli
+
+margin-left: auto
+ crea un margine a sinistra il più ampio possibile , in  maniera da portare l'oggetto a cui viene applicato il più a sinitra possibile*/
