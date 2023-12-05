@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  /* object-fit fa la stessa cosa di background size ma su oggetti diversi (al posto di imamgini di background passo a trattare direttamente della immagini */
+  object-position: center;
+  /* Analogo di background-position */
+}
+
+/* Posso dare due transizioni diverse
+quando metto il mouse su un oggetto e quando lo levo
+dando l'attributo transition a tutto card
+e a card img
+quando passo il mouse sull'immagine userò la 
+transizione in card img
+quando lo levo quella in card */

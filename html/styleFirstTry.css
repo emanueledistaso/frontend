@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+header{
+    background-color: orangered;
+    height: 15vh;
+    padding: 20px;
+}
+
+aside{
+    float: left;
+    height: 70vh;
+    background-color: orange;
+    width: 20vw;
+    padding: 20px;
+}
+
+main{
+    background-color: cadetblue;
+    color: white;
+    float: left;
+    height: 70vh;
+    width: 50vw;
+    padding: 20px;
+}
+
+sub{
+    float: right;
+    background-color: royalblue;
+    height: 70vh;
+    width: 30vw;
+    padding: 20px;
+}
+
+footer{
+    clear: both;
+    background-color: green;
+    height: 15vh;
+}

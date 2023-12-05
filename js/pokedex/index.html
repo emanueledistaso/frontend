@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <div class="ball-center"></div>
+    <div class="input-container">
+      <label for="userinput">Search first generation Pokemon (# 1-151): </label>
+      <div>
+        <input
+          type="number"
+          name="userinput"
+          id="userinput"
+          min="1"
+          max="151"
+        />
+        <button class="btn" id="submit">Invio</button>
+      </div>
+    </div>
+
+    <div class = "card-container" id="pokemon-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    /* Il comando di sopra mi nasconde lo scorrimento
+    orizzontale della pagina rendendolo impossibile
+    questo non si dovrebbe fare ma è un workaround
+    per evitare questi scorrimenti.
+    in teoria dovrebbe essere tutto giusto e preciso dal codice */
+}
+
+/* CSS PRIMO ESERCIZIO */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.big-box{
+    background-color: cyan;
+    padding: 10vh 8vw 6vh 8vw;
+}
+
+
+.box-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 4vh;
+}
+
+.square{
+    height: 18vh;
+    width: 18vh;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+/* CSS specifico per secondo esercizio */
+/* Prova nuovo stile CSS, utilities + cose specifiche */
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.wrapper{
+    max-width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    border: 2px solid red
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    margin: 0 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
